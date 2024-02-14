@@ -26,6 +26,12 @@ public class AnimalCommandLineRunner implements CommandLineRunner {
 
         System.out.println(repository.findAll());
 
+        System.out.println(repository.findByType("Cat"));
+        System.out.println(repository.findByType("Lion"));
+
+        System.out.println(repository.findByIsDomestic(true));
+        System.out.println(repository.findByIsDomestic(false));
+
 
     }
 }
