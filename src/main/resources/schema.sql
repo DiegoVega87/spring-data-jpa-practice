@@ -1,6 +1,5 @@
 CREATE TABLE animals (
     id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    type VARCHAR(255) NOT NULL,
-    domestic BOOLEAN NOT NULL,
-
-)
+    animal_type VARCHAR(255) NOT NULL,
+    domestic BOOLEAN NOT NULL
+);
